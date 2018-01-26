@@ -1,0 +1,8 @@
+{
+    "timestamp": 1516973608148,
+    "status": 500,
+    "error": "Internal Server Error",
+    "exception": "org.springframework.beans.BeanInstantiationException",
+    "message": "Failed to instantiate [org.springframework.http.HttpRequest]: Specified class is an interface",
+    "path": "/client"
+}

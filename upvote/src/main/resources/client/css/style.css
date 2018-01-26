@@ -1,0 +1,35 @@
+h6.userTimestamp {
+    text-align: right;
+}
+
+th.scoreColumn, td.scoreColumn {
+    width: 6em;
+    text-align: center;
+}
+
+td > a {
+    color: darkblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+td > a:hover {
+    text-decoration: none;
+}
+
+td > a:not(.subject) {
+    font-weight: bold;
+}
+
+a.down:hover, a.down:active, a.selectedDown {
+    color: red;
+}
+
+a.up:hover, a.up:active, a.selectedUp {
+    color: green;
+}
+
+/* Removing Bootstrap header row hover effect. */
+.table-hover tbody tr:hover th {
+    background-color: white;
+}

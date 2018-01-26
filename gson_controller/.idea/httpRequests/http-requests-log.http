@@ -1,0 +1,326 @@
+GET http://localhost:8080
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080
+Accept: application/json
+Cache-Control: no-cache
+
+<> 2018-01-26T032003.200.json
+
+###
+
+GET http://localhost:8080
+Accept: text/plain
+Cache-Control: no-cache
+
+<> 2018-01-26T031944.200.txt
+
+###
+
+GET http://localhost:8080
+Accept: text/plain
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080
+Accept: text/plain
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080
+Accept: text/plain
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080
+Accept: text/plain
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080
+Accept: text/plain
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/dynamic
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/client
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-01-26T031042.200.json
+
+###
+
+GET http://localhost:8080/client
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-01-26T031014.200.json
+
+###
+
+GET http://localhost:8080/dynamic
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/dynamic
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/dynamic
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/dynamic
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/dynamic
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/dynamic
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/dynamic
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/dynamic
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/dynamic
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080
+Accept: application/json
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080
+Accept: application/json
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080
+Accept: application/json
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080
+Accept: application/json
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080
+Accept: application/json
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080
+Accept: application/json
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080
+Accept: application/json
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080
+Accept: application/json
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080
+Accept: application/json
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080
+Accept: text/plain
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/account
+Accept: text/plain
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/account
+Accept: application/json
+Cache-Control: no-cache
+
+<> 2018-01-26T025955.200.json
+
+###
+
+GET http://localhost:8080/client
+Accept: application/json
+Cache-Control: no-cache
+
+<> 2018-01-26T025946.200.json
+
+###
+
+GET http://localhost:8080/client
+Accept: text/plain
+Cache-Control: no-cache
+
+<> 2018-01-26T025934.200.txt
+
+###
+
+GET http://localhost:8080/client
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-01-26T025925.200.json
+
+###
+
+GET http://localhost:8080
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080
+Accept: text/plain
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080
+Accept: text/plain
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080
+Accept: text/plain
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080
+Accept: text/plain
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/client
+Accept: text/plain
+Cache-Control: no-cache
+
+<> 2018-01-26T024005.200.txt
+
+###
+
+GET http://localhost:8080/client
+Accept: application/json
+Cache-Control: no-cache
+
+<> 2018-01-26T023543.200.json
+
+###
+
+GET http://localhost:8080/client
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-01-26T023519.200.json
+
+###
+
+GET http://localhost:8080/client
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-01-26T023501.200.json
+
+###
+
+GET http://localhost:8080/client
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-01-26T023328.500.json
+
+###
+
+GET http://localhost:8080/client
+Accept: text/plain
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/client
+Accept: text/plain
+Cache-Control: no-cache
+
+###
+
