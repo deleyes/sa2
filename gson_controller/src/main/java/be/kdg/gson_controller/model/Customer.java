@@ -1,10 +1,10 @@
 package be.kdg.gson_controller.model;
 
-public class Client {
+public class Customer {
     private final String firstName;
     private final String lastName;
 
-    public Client(String firstName, String lastName) {
+    public Customer(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
     }
