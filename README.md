@@ -1,6 +1,6 @@
-# Programmeren 3
+# Software Architecture 2
 
-In deze repository vind je voorbeeldcode voor het vak Programmeren 3. Elke directory bevat een afzonderlijk IntelliJ IDEA project. Alle projecten zijn voorzien van een [Gradle](https://gradle.org/) wrapper.
+In deze repository vind je voorbeeldcode voor het vak Software Architecture 2. Elke directory bevat een afzonderlijk IntelliJ IDEA project. Alle projecten zijn voorzien van een [Gradle](https://gradle.org/) wrapper.
 
 ## Week 1
 
