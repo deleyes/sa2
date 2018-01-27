@@ -40,7 +40,7 @@ In deze repository vind je voorbeeldcode voor het vak Programmeren 3. Elke direc
 
 ## Geintegreerd project
 
-- [upvote](upvote) ![Spring Boot][spring_boot] ![Thymeleaf][thymeleaf] ![Hibernate][hibernate]
+- [upvote](https://github.com/kdg-ti/upvote) ![Spring Boot][spring_boot] ![Thymeleaf][thymeleaf] ![Hibernate][hibernate]
 
   Een website waar je vragen kan stellen, beantwoorden en up/downvoten (a la StackOverflow of reddit).
 
