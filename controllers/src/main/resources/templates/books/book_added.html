@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Book Added</title>
+</head>
+<body>
+
+<h1>Book added successfully!</h1>
+
+<p>
+    <label>Title: </label><span th:text="${book.getTitle()}"></span>
+</p>
+<p>
+    <label>Author: </label><span th:text="${book.getAuthor()}"></span>
+</p>
+
+</body>
+</html>

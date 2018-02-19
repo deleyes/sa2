@@ -5,11 +5,15 @@ apply plugin: 'java'
 apply plugin: 'org.springframework.boot'
 
 buildscript {
+    ext {
+        springBootVersion = '1.5.8.RELEASE'
+        extrasVersion = '2.1.0.RELEASE'
+    }
     repositories {
         mavenCentral()
     }
     dependencies {
-        classpath('org.springframework.boot:spring-boot-gradle-plugin:1.5.7.RELEASE')
+        classpath(group: 'org.springframework.boot', name: 'spring-boot-gradle-plugin', version: springBootVersion)
     }
 }
 
@@ -20,11 +24,10 @@ repositories {
 }
 
 dependencies {
-    compile(group: 'javax.servlet', name: 'jstl', version: '1.2')
-    compile(group: 'org.apache.tomcat.embed', name: 'tomcat-embed-jasper', version: '8.5.5')
-    compile(group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '1.5.7.RELEASE')
+    compile(group: 'org.springframework.boot', name: 'spring-boot-starter-thymeleaf', version: springBootVersion)
+    compile(group: 'org.thymeleaf.extras', name: 'thymeleaf-extras-java8time', version: extrasVersion)
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '4.2'
+    gradleVersion = '4.5.1'
 }
