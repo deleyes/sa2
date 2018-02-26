@@ -7,6 +7,7 @@ apply plugin: 'org.springframework.boot'
 buildscript {
     ext {
         springBootVersion = '1.5.7.RELEASE'
+        springVersion = '4.2.3.RELEASE'
         h2Version = '1.4.192'
         mmVersion = '1.1.0'
     }
@@ -31,6 +32,9 @@ dependencies {
     compile(group: 'com.h2database', name: 'h2', version: h2Version)
 
     compile(group: 'org.modelmapper', name: 'modelmapper', version: mmVersion)
+
+    testCompile(group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: springBootVersion)
+    testCompile(group: 'org.springframework.security', name: 'spring-security-test', version: springVersion)
 }
 
 task wrapper(type: Wrapper) {

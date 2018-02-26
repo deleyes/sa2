@@ -32,6 +32,13 @@ public class Team {
     protected Team() {
     }
 
+    public Team(long id, String name, String uciCode, short founded) {
+        this.id = id;
+        this.name = name;
+        this.uciCode = uciCode;
+        this.founded = founded;
+    }
+
     public String getName() {
         return name;
     }

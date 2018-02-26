@@ -10,7 +10,6 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
-import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import java.util.Date;
@@ -38,6 +37,12 @@ public class Rider {
     private List<StageResult> stageResults;
 
     protected Rider() {
+    }
+
+    public Rider(long id, String name, Date dateOfBirth) {
+        this.id = id;
+        this.name = name;
+        this.dateOfBirth = dateOfBirth;
     }
 
     public long getId() {
